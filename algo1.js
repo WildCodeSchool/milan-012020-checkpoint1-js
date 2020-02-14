@@ -27,14 +27,13 @@ The final array should look something like this:
 
 
 
-var array1 = ["1", "26"];
+let output = []
 
-var array2 = ["1", "100"];
+for (var i = 1; i <= 26; i++) {
+    for (var j = 1; j <= 100; j++) {
 
-
-for (var i = 0; i < array1.length; i++) {
-    for (var j = 0; j < array2.length; j++) {
-
-        combos.push(array1[i] + array2[j])
+        output.push(i + "-" + j)
     }
 }
+
+console.log(output)
