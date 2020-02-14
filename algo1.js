@@ -23,3 +23,19 @@ The final array should look something like this:
     26-100
 ]
 */
+
+
+
+
+var array1 = ["1", "26"];
+
+var array2 = ["1", "100"];
+
+combos = []
+
+for (var i = 0; i < array1.length; i++) {
+    for (var j = 0; j < array2.length; j++) {
+
+        combos.push(array1[i] + array2[j])
+    }
+}
