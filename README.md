@@ -5,7 +5,7 @@
 ______ 
 
 * Clone this project 
-* Create a branch with "city_lastName_firstName", where you'll push all your code
+* Create a branch with "c", where you'll push all your code
 eg: milan_rossi_vasco 
 
 ______ 
