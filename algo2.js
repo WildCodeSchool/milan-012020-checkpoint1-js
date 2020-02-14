@@ -39,13 +39,12 @@ Note: try changing only the necessary code, don't rewrite the entire thing.
 //     }
 //     array.push(min, max);
 // }
-let array: ["4", "6", "35", "-65", "-9", "0", "67"];
-
+let array = [56, 7, 63, 9, 7, 12, 85];
 let minMax = () => (array) => {
-    const min = array[0];
-    const max = array[0];
+    const min = array[i];
+    const max = array[i];
 
-    for (let i = 1; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         if (array[i] < min) {
             min = array[i];
         }
