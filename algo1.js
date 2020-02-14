@@ -23,3 +23,16 @@ The final array should look something like this:
     26-100
 ]
 */
+
+let output = [];
+
+const seats = () => {
+  for (let row = 1; row <= 26; row++) {
+    for (let seat = 1; seat <= 100; seat++) {
+      output.push(row + " - " + seat);
+    }
+  }
+  return output;
+};
+
+console.log(seats());
