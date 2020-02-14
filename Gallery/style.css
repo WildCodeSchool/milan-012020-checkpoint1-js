@@ -1,0 +1,84 @@
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+h4{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.news {
+  margin-bottom: 2rem;
+  color: rgb(8, 43, 78);
+  box-shadow: 5px 5px 5px #dedede;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.news > img {
+  width: 100%;
+  height: auto;
+  transition:0.5s opacity;
+}
+
+.desc {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  width:100%;
+  background-color: #ffffff;
+  color: black;
+  padding: 10px;
+  transition:0.5s font-weight;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  } 
+  
+.news > img:hover {
+  opacity:60%
+}
+
+.news:hover .desc {
+  font-weight: bold;
+}
+.mdb-color.darken-3 {
+  background-color: #343a40 !important;
+}
+  .documentation footer {
+    padding-left: 0;
+}
+
+.images_box {
+  background:url("https://cdn.pixabay.com/photo/2014/10/22/16/38/ingredients-498199_960_720.jpg") no-repeat center center/cover;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:680px;
+}
+
+
+.image_text{
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: 600;  
+  display: flex;
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+
+body {
+  margin: 0;
+  font-family: "lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}

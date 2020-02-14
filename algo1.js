@@ -23,3 +23,11 @@ The final array should look something like this:
     26-100
 ]
 */
+
+let output = []
+for (let i = 1; i <= 26; i++) {
+    for (let j = 1; j <= 100; j++) {
+        output.push(i + "-" + j)
+    }
+}
+console.log(output);
