@@ -23,3 +23,24 @@ The final array should look something like this:
     26-100
 ]
 */
+let seatsRow = [1,2,3,4,5,6,7,8]
+const row = "1";
+let room = [];
+
+let rowArray = [];
+
+const Algo1 = () => {
+  for (let i = 0; i < seatsRow.length; i++) {
+    for (let j = 0; j < row.length; j++) {
+      rowArray.push(seatsRow[i] + '-' + row[j])
+    }
+    room.push(rowArray)
+  }
+  return room.sort();
+}
+
+
+console.log(Algo1())
+
+
+

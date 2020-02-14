@@ -6,5 +6,5 @@ If the user enters a number that is above 60, your program should fail, and log 
 */
 
 function minuteAngle(minute) {
-
+  
 }
