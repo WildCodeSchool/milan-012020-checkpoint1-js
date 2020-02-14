@@ -4,7 +4,14 @@ Given a number that represents the position of the minute hand on a clock (numbe
 If the user enters a number that is above 60, your program should fail, and log a friendly message to the console, informing the user of their error. 
 (Hint: Create an HTML UI to capture input and display the result of running you algorithm)
 */
+const input = [];
 
-function minuteAngle(minute) {
-
+function minuteAngle(input) {
+  if (input <= 60) {
+    return input * 6;
+  } else {
+    console.log("Input denied");
+  }
 }
+
+console.log(minuteAngle(57));
